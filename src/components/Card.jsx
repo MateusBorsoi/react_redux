@@ -16,8 +16,9 @@ const Card = (props) => {
       <div className="Header">
         <span className="Title">{props.title}</span>
       </div>
-      <div className="Content"></div>
+      <div className="Content">
       {props.children}
+      </div>
     </div>
   );
 };

@@ -37,6 +37,7 @@ const Intervalo = (props) => {
             value={max}
             size="small"
             className="txtField"
+            onChange={(event) => props.alteraMaximo(+event.target.value)}
             sx={{ input: { color: "white", background: "#cf3232" } }}
           />
         </span>

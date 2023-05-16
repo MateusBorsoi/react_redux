@@ -1,7 +1,16 @@
-const Soma = () => {
-    return (
-        <div></div>
-    )
-}
+import Card from "./Card";
 
-export default Soma
+
+const Soma = (props) => {
+  return (
+    <Card title="Soma dos Números" Blue>
+        <div>
+      <span>Resultado  <strong>10</strong></span>
+     
+      </div>
+    </Card>
+    
+  );
+};
+
+export default Soma;

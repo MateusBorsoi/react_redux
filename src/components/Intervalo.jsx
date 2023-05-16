@@ -2,7 +2,9 @@ import "./Intervalo.css";
 import Card from "./Card";
 import { TextField } from "@mui/material";
 
+
 const Intervalo = (props) => {
+
   return (
     <Card title="Intervalo de Números" Red>
         <div className="Intervalo">
@@ -16,6 +18,7 @@ const Intervalo = (props) => {
           value={0}
           size="small"
           className="txtField"
+          sx={{ input: { color: 'white', background: '#cf3232'} }}
         />
       </span>
       <span>
@@ -28,6 +31,7 @@ const Intervalo = (props) => {
           value={10}
           size="small"
           className="txtField"
+          sx={{ input: { color: 'white', background: '#cf3232' } }}
         />
       </span>
       </div>

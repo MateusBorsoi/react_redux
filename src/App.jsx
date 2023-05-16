@@ -1,24 +1,21 @@
 import "./App.css";
 import Card from "./components/Card";
 import Intervalo from "./components/Intervalo";
+import Media from "./components/Media";
+import Soma from "./components/Soma";
+import Sorteio from "./components/Sorteio";
 
 function App() {
   return (
     <div className="App">
       <h1>React + Redux</h1>
       <div className="Linha">
-        <Intervalo/>
+        <Intervalo />
       </div>
       <div className="Linha">
-        <Card title="Card 2" Green>
-          A
-        </Card>
-        <Card title="Card 3" Blue>
-          A
-        </Card>
-        <Card title="Card 4" Purple>
-          A
-        </Card>
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   );
